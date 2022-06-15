@@ -1,0 +1,91 @@
+html{
+  background: darkslategrey;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: darkslategrey;
+  height: 100%;
+  margin: 10PX;
+  padding: 20PX;
+  border: rgb(210, 240, 240);
+}
+
+.save-note {
+  display:inline-flex;
+}
+
+.icons i {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.note-textarea,
+.note-title {
+  color: darkslategrey;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 20px;
+}
+
+.note-textarea {
+  resize: none;
+  height: calc(100% - 63px);
+  background: #e5fce5;
+  padding-top: 15px;
+}
+
+.note-title {
+  height: 50px;
+  margin: 20px auto 0 auto;
+  font-size: 3rem;
+}
+
+.note-title:read-only,
+.note-textarea:read-only {
+  color: #757575;
+}
+
+.list-container .card {
+  background-color: #18bc9b8e;
+  height: calc(100vh - 70px);
+  border-bottom: none;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.list-container {
+  padding: 20px
+
+}
+
+.list-container .list-group,
+.list-container .list-group-item:first-child,
+.list-container .card {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.list-item-title {
+  display: inline-block;
+  width: 82%;
+  color:darkslategrey;
+}
+
+.list-container i {
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: rgb(250, 250, 152);
+}
+
+.list-container .list-group-item {
+ 
+  border-right: none;
+  padding-left:9px;
+  padding-bottom: 3px; 
+   cursor: pointer;
+}
