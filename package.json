@@ -1,21 +1,18 @@
 {
-  "name": "noted",
+  "name": "notes",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PhilemonKirlles/Noted.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PhilemonKirlles/Noted/issues"
-  },
-  "homepage": "https://github.com/PhilemonKirlles/Noted#readme"
+  "dependencies": {
+    "express": "^4.17.2",
+    "inquirer": "^8.2.4",
+    "parse-json": "^6.0.2",
+    "require": "^0.4.4",
+    "uuid": "^8.3.2"
+  }
 }

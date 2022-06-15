@@ -127,15 +127,15 @@ const renderNoteList = async (notes) => {
 
   // Returns HTML element with or without a delete button
   const createLi = (text, delBtn = true) => {
-    const liEl = document.createElement('li');
-    liEl.classList.add('list-group-item');
+    const listEl = document.createElement('list');
+    listEl.classList.add('list-group-item');
 
     const spanEl = document.createElement('span');
     spanEl.classList.add('list-item-title');
     spanEl.innerText = text;
     spanEl.addEventListener('click', handleNoteView);
 
-    liEl.append(spanEl);
+    listEl.append(spanEl);
 
     if (delBtn) {
       const delBtnEl = document.createElement('i');
@@ -148,10 +148,10 @@ const renderNoteList = async (notes) => {
       );
       delBtnEl.addEventListener('click', handleNoteDelete);
 
-      liEl.append(delBtnEl);
+      listEl.append(delBtnEl);
     }
 
-    return liEl;
+    return listEl;
   };
 
   if (jsonNotes.length === 0) {
@@ -159,10 +159,10 @@ const renderNoteList = async (notes) => {
   }
 
   jsonNotes.forEach((note) => {
-    const li = createLi(note.title);
-    li.dataset.note = JSON.stringify(note);
+    const list = createLi(note.title);
+    list.dataset.note = JSON.stringify(note);
 
-    noteListItems.push(li);
+    noteListItems.push(list);
   });
 
   if (window.location.pathname === '/notes') {
