@@ -61,8 +61,8 @@ In the left column, some example notes are present. Delete or Keep them.
 
 
 ## Deployment Site
-https://philemon-noted.herokuapp.com/notes
-
+[https://philemon-noted.herokuapp.com/
+](https://philemon-noted.herokuapp.com/)
 #### License
 
 UConn bootcamp class License
