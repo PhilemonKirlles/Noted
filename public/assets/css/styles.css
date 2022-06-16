@@ -12,7 +12,7 @@ body {
 }
 .navbar-brand{
   font: 32px bold;
-  margin-left: 200px;
+  margin-left: 120px;
 }
 .save-note {
   display:inline-flex;
@@ -39,6 +39,7 @@ body {
   height: calc(100% - 63px);
   background: #18BC9C;
   padding-top: 15px;
+  color: white;
 }
 
 .note-title {
