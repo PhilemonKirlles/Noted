@@ -1,12 +1,11 @@
 html{
-  background: darkslategrey;
   height: 100%;
   margin: 0;
   padding: 0;
 }
 body {
   background: darkslategrey;
-  height: 100%;
+  height: 80%;
   margin: 10PX;
   padding: 20PX;
   border: rgb(210, 240, 240);
@@ -38,7 +37,7 @@ body {
 .note-textarea {
   resize: none;
   height: calc(100% - 63px);
-  background: #e5fce5;
+  background: #18BC9C;
   padding-top: 15px;
 }
 
@@ -54,7 +53,7 @@ body {
 }
 
 .list-container .card {
-  background-color: honeydew;
+  background-color: darkslategrey;
   height: calc(100vh - 70px);
   border-bottom: none;
   border-bottom-right-radius: 0;
