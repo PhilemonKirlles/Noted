@@ -1,0 +1,7 @@
+(Setting  Heroku, Git, and npm
+    -src = https://devcenter.heroku.com/articles/heroku-cli#verify-your-installation 
+         https://devcenter.heroku.com/articles/getting-started-with-nodejs#prepare-the-app
+Create an Express.js server
+Create static files
+Deploy to Heroku )-src =:https://www.freecodecamp.org/news/how-to-deploy-your-site-using-express-and-heroku/
+------
