@@ -11,7 +11,10 @@ body {
   padding: 20PX;
   border: rgb(210, 240, 240);
 }
-
+.navbar-brand{
+  font: 32px bold;
+  margin-left: 200px;
+}
 .save-note {
   display:inline-flex;
 }
