@@ -51,7 +51,7 @@ body {
 }
 
 .list-container .card {
-  background-color: #18bc9b8e;
+  background-color: honeydew;
   height: calc(100vh - 70px);
   border-bottom: none;
   border-bottom-right-radius: 0;
