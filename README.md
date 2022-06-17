@@ -2,8 +2,11 @@
 
 [![Generic badge](https://img.shields.io/badge/License-MIT-yellowgreen.svg)](https://shields.io/)
 
-![Project Image](./assets/images/...)
-image
+![Project Vedio](./public/assets/media/Noted.mp4)
+
+
+https://user-images.githubusercontent.com/99282495/174142721-53019795-c1b4-4a4e-aa2b-c5ed1098ab4d.mp4
+
 ---
 
 ## Table of Contents
@@ -58,8 +61,8 @@ In the left column, some example notes are present. Delete or Keep them.
 
 
 ## Deployment Site
-https://philemon-noted.herokuapp.com/notes
-
+[https://philemon-noted.herokuapp.com/
+](https://philemon-noted.herokuapp.com/)
 #### License
 
 UConn bootcamp class License
