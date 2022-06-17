@@ -22,7 +22,7 @@ Noted, is used to type, save, and delete notes on a web page deployed through He
 
 ## Purpose
 
-A utility applecation for note taking.
+A utility application for note taking.
 
 ### User Story
 
